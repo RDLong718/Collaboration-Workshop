@@ -1,0 +1,89 @@
+/* CSS Styles for the Homepage (index.html) */
+
+body {
+    margin: 150px auto;
+    width: 1500px;
+    height: 900px;
+    background-color: #210F04;
+    color: #F0C894;
+}
+
+header {
+    width: 1100px;
+    max-width: 1100px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #452103;
+    border: #140B00 solid 10px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    min-width: 920px;
+    padding: 25px;
+    margin: 25px;
+    border: #815028 inset 10px;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+nav {
+    min-width: 1000px;
+    max-width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav > a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs {
+    flex: 1;
+
+    height: 150px;
+    padding: 5px 0;
+    margin: 10px;
+    
+    border: #452103 ridge 10px;
+    background-color: #815028;
+    font-size: 80px;
+    text-align: center;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer {
+    margin: auto;
+    padding: 0;
+    color: #F0C894;
+}
+
+footer > p {
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 0 25px; 
+    margin: 25px auto;
+    text-align: center;
+    font-size: 25px;
+}
