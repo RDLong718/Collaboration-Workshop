@@ -1,4 +1,4 @@
-/* Stylesheet for Coffee Types Section of Coffee Page.*/
+/* Stylesheet for History Section of Coffee Page. This style can be used as a template for other pages. */
 
 body {
     margin: 0;
@@ -74,6 +74,8 @@ main {
 }
 
 .article-images {
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -132,4 +134,11 @@ footer>p {
     padding: 0 25px;
     margin: 25px auto;
     text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
