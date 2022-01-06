@@ -82,6 +82,11 @@ main {
     align-items: center;
 }
 
+.article-images a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 h2 {
     font-size: 50px;
     align-self: flex-start;
