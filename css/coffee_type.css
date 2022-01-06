@@ -74,6 +74,8 @@ main {
 }
 
 .article-images {
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -132,4 +134,11 @@ footer>p {
     padding: 0 25px;
     margin: 25px auto;
     text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
