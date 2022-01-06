@@ -1,0 +1,135 @@
+/* Stylesheet for History Section of Coffee Page. This style can be used as a template for other pages. */
+
+body {
+    margin: 0;
+    background-color: #210F04;
+    color: #F0C894;
+}
+
+header {
+    width: 1100px;
+    max-width: 1100px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #452103;
+    border: #140B00 solid 10px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    min-width: 920px;
+    padding: 25px;
+    margin: 25px;
+    border: #815028 inset 10px;
+    font-size: 100px;
+    text-align: center;
+}
+
+nav {
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav>a {
+    flex: 1;
+    background-color: none;
+}
+
+.tabs {
+    padding: 5px 0;
+    margin: 10px;
+    background-color: #815028;
+    border: #452103 ridge 10px;
+    text-align: center;
+}
+
+main {
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 25px;
+    margin: auto;
+    border: #140B00 ridge 10px;
+    background-color: #c0965e;
+    color: #291700;
+    display: flex;
+}
+
+.article-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-images {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    align-self: flex-start;
+}
+
+p {
+    font-size: 25px;
+    align-self: flex-start;
+}
+
+.annotated-image {
+    width: 85%;
+    padding: 20px;
+    margin: 50px 0;
+    border: #140B00 ridge 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    padding: 0 2px;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.top-text {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom-text {
+    margin-top: 5px;
+}
+
+footer {
+    margin: auto;
+    padding: 0;
+    color: #F0C894;
+}
+
+footer>p {
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 0 25px;
+    margin: 25px auto;
+    text-align: center;
+}
