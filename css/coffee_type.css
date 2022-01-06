@@ -1,3 +1,5 @@
+/* Stylesheet for History Section of Coffee Page. This style can be used as a template for other pages. */
+
 body {
     margin: 0;
     background-color: #210F04;
@@ -5,29 +7,82 @@ body {
 }
 
 header {
-    background-color: #452103;
     width: 1100px;
     max-width: 1100px;
     height: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #452103;
     border: #140B00 solid 10px;
-    margin: auto;
-    margin-top: 25px
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
     min-width: 920px;
-    font-size: 100px;
-    /* font-style: italic; */
-    margin: 25px;
     padding: 25px;
+    margin: 25px;
     border: #815028 inset 10px;
+    font-size: 100px;
     text-align: center;
+}
+
+nav {
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav>a {
+    flex: 1;
+    background-color: none;
+}
+
+.tabs {
+    padding: 5px 0;
+    margin: 10px;
+    background-color: #815028;
+    border: #452103 ridge 10px;
+    text-align: center;
+}
+
+main {
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 25px;
+    margin: auto;
+    border: #140B00 ridge 10px;
+    background-color: #c0965e;
+    color: #291700;
+    display: flex;
+}
+
+.article-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-images {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
     font-size: 50px;
     align-self: flex-start;
-    /* border: #815028 inset 10px; */
 }
 
 p {
@@ -35,33 +90,46 @@ p {
     align-self: flex-start;
 }
 
-.text-center {
+.annotated-image {
+    width: 85%;
+    padding: 20px;
+    margin: 50px 0;
+    border: #140B00 ridge 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    padding: 0 2px;
+    margin: 0;
+    font-size: 25px;
     text-align: center;
 }
 
-a.button1 {
-    display: inline-block;
-    padding: 0.3em 1.2em;
-    margin: 0 0.1em 0.1em 0;
-    border: 0.16em solid rgba(255, 255, 255, 0);
-    border-radius: 2em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #FFFFFF;
-    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+.top-text {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom-text {
+    margin-top: 5px;
+}
+
+footer {
+    margin: auto;
+    padding: 0;
+    color: #F0C894;
+}
+
+footer>p {
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 0 25px;
+    margin: 25px auto;
     text-align: center;
-    transition: all 0.2s;
-}
-
-a.button1:hover {
-    border-color: rgba(255, 255, 255, 1);
-}
-
-@media all and (max-width:30em) {
-    a.button1 {
-        display: block;
-        margin: 0.2em auto;
-    }
 }
