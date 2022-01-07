@@ -17,6 +17,13 @@ header {
     font-style: italic;
 }
 
+body > a {
+    display: block;
+    margin: auto;
+    width: 1120px;
+    max-width: 1120px;
+}
+
 a {
     text-decoration: none;
     color: inherit
@@ -30,6 +37,7 @@ h1 {
     min-width: 920px;
     padding: 25px;
     margin: 25px;
+    margin-top: 33px;
     border: #815028 inset 10px;
     font-size: 100px;
     text-align: center;
@@ -82,9 +90,10 @@ main {
     align-items: center;
 }
 
-.article-images a:hover img {
-    transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.article-images > div:hover {
+    transform: scale(1.25);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    border-style: none;
 }
 
 h2 {

@@ -17,6 +17,13 @@ header {
     font-style: italic;
 }
 
+body > a {
+    display: block;
+    margin: auto;
+    width: 1120px;
+    max-width: 1120px;
+}
+
 a {
     text-decoration: none;
     color: inherit
@@ -31,6 +38,7 @@ h1 {
     min-width: 920px;
     padding: 25px;
     margin: 25px;
+    margin-top: 33px;
     border: #815028 inset 10px;
     font-size: 100px;
     text-align: center;
