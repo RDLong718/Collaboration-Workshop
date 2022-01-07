@@ -90,9 +90,9 @@ main {
     align-items: center;
 }
 
-.article-images > div:hover {
-    transform: scale(1.25);
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+.article-images a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-style: none;
 }
 
