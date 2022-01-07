@@ -99,3 +99,19 @@ footer > p {
     text-align: center;
     font-size: 25px;
 }
+
+button {
+    flex: 1;
+    
+    height: 180px;
+    padding: 5px 0;
+    margin: 10px;
+    
+    border: #452103 ridge 10px;
+    background-color: #815028;
+    color: #F0C894;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
